@@ -16,7 +16,6 @@
             font-style: normal;
             font-variation-settings: "wdth" 100;
         }
-        
         .inter-f {
             font-family: "Inter", sans-serif;
             font-optical-sizing: auto;
@@ -38,6 +37,14 @@
         }
         .b{
             background-color: rgb(245, 248, 255);
+        }
+        button:hover, .h:hover {
+            background-color: #ff7300;
+            transform: scale(1.05);
+        }
+        /* The next line is just for a little trial of the optional part. I don't have much energy left to complete it within my time. So, I am not going any far. If you don't like this comment then you can avoid this. This type of comment is not what I may leave in professional cases.*/
+        .m:hover{
+            transform: rotate(180deg);
         }
     </style>
 </head>
@@ -237,7 +244,7 @@
                 </h1>
                 <form action="" class="flex items-center justify-center">
                     <input type="email" placeholder="Write email" class="bg-white py-4 px-5 sm:w-2xl w-56">
-                    <input class="bg text-white sm:px-14 px-3 py-4 sm:text-base text-sm" type="submit">
+                    <input class="h bg text-white sm:px-14 px-3 py-4 sm:text-base text-sm" type="submit" value="Subscribe">
                 </form>
             </div>
         </section>
@@ -276,12 +283,21 @@
                     <li><a href="">Help Center</a></li>
                 </ul>
             </div>
-            <div class="flex gap-6 max-w-9 max-h-9">
-                <img class="w-full h-full object-contain" src="assets/icon-linkedin.png" alt="LinkedIn">
-                <img class="w-full h-full object-contain" src="assets/icon-twitter.png" alt="X">
-                <img class="w-full h-full object-contain" src="assets/icon-facebook.png" alt="Facebook">
-                <img class="w-full h-full object-contain" src="assets/icon-youtube.png" alt="YouTube">
+            <div class="flex gap-6">
+                <a href="https://linkedin.com" target="_blank" class="w-9 h-9 block">
+                    <img class="w-full h-full object-contain" src="assets/icon-linkedin.png" alt="LinkedIn">
+                </a>
+                <a href="https://twitter.com" target="_blank" class="w-9 h-9 block">
+                    <img class="w-full h-full object-contain" src="assets/icon-twitter.png" alt="X">
+                </a>
+                <a href="https://facebook.com" target="_blank" class="w-9 h-9 block">
+                    <img class="w-full h-full object-contain" src="assets/icon-facebook.png" alt="Facebook">
+                </a>
+                <a href="https://youtube.com" target="_blank" class="w-9 h-9 block">
+                    <img class="w-full h-full object-contain" src="assets/icon-youtube.png" alt="YouTube">
+                </a>
             </div>
+
         </section>
 
     </footer>
