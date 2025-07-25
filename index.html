@@ -17,6 +17,11 @@
         .bg{
             background-color: #e95a08;
         }
+        .m{
+            margin-top: -128px;
+            margin-left: -192px;
+            filter: drop-shadow(-3px 10px 3px rgba(0, 0, 0, 0.3));
+        }
         @media screen {
             
         }
@@ -120,8 +125,9 @@
         </section>
 
         <section class="w-full flex flex-col sm:flex-row gap-5 sm:gap-14 items-center sm:mt-20 mt-10">
-            <div>
+            <div class="flex mt-20">
                 <img src="assets/flower-store.png" alt="FLOWERS Store">
+                <img class="hidden sm:block max-h-[286px] max-w-[286px] m drop-shadow-red-400" src="assets/trusted-badge.png" alt="Badge">
             </div>
             <div class="flex-1">
                 <h1 class="text-2xl sm:text-5xl font-bold mb-4">
@@ -146,13 +152,13 @@
                 <h1 class="font-bold text-2xl sm:text-5xl mb-4">
                     <span class="col2">Latest</span> Deals
                 </h1>
-                <p class="col1 mx-auto max-w-2xl">
+                <p class="col1 text-base sm:text-2xl mx-auto max-w-2xl">
                     Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.
                 </p>
             </div>
             <!-- Challenge Part -->
             <div class="my-10 sm:my-32 grid grid-cols-1 sm:grid-cols-2 gap-5">
-                <div class="relative rounded-xl overflow-hidden w-full">
+                <div class="relative rounded-3xl overflow-hidden w-full">
                     <!-- Background Image -->
                     <div class="absolute inset-0 bg-[url('assets/deal-bloom.png')] bg-cover bg-center"></div>
 
@@ -169,7 +175,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="relative rounded-xl overflow-hidden w-full sm:order-3">
+                <div class="relative rounded-3xl overflow-hidden w-full sm:order-3">
                     <!-- Background Image -->
                     <div class="absolute inset-0 bg-[url('assets/deal-ana.png')] bg-cover bg-center"></div>
 
@@ -186,7 +192,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="relative rounded-xl overflow-hidden w-full sm:order-2 sm:row-span-2">
+                <div class="relative rounded-3xl overflow-hidden w-full sm:order-2 sm:row-span-2">
                     <!-- Background Image -->
                     <div class="absolute inset-0 bg-[url('assets/deal-zabo.png')] bg-cover bg-center"></div>
 
@@ -225,7 +231,7 @@
         <section class="m-5 sm:mx-40 my-12 grid sm:grid-cols-3">
             <div>
                 <img class="mb-4" src="assets/logo.png" alt="Logo">
-                <p class="mb-5 col1 max-w-72">
+                <p class="mb-5 text-base sm:text-2xl col1 max-w-72">
                     Indulge your senses with the beauty and fragrance of our fresh flower shop.
 
                 </p>
