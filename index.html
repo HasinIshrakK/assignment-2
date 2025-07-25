@@ -17,16 +17,14 @@
             background-color: #e95a08;
         }
         @media screen {
-            /* .l{
-                margin: 16px;
-            } */
+            
         }
     </style>
 </head>
 <!-- This is only responsive for mobile phones as there wasn't any criteria for others. -->
 <body class="mx-0">
     <nav>
-        <ul class="flex justify-between mx-4 sm:mx-60 my-4 l">
+        <ul class="flex justify-between mx-4 sm:mx-40 my-4">
             <li>
                 <img src="assets/logo.png" alt="Logo">
             </li>
@@ -43,8 +41,8 @@
     </nav>
 
     <header class="sm:mx-40">
-        <div class="m-0 sm:flex sm:m-15 mb-0 flex-row-reverse">
-            <img class="my-0 sm:my-4 sm:mt-24 ml-auto" src="assets/hero-flower.png" alt="Flower">
+        <div class="m-0 sm:flex sm:my-16 mb-0 flex-row-reverse">
+            <img class="block my-0 sm:my-4 sm:mt-24 ml-auto" src="assets/hero-flower.png" alt="Flower">
             <div class="mt-7 mx-4">
                 <h1 class="font-bold text-2xl sm:text-6xl sm:mt-40 mb-2.5">
                     ALWAYS <span class="col2">FRESH<br>FLOWERS</span>
@@ -56,16 +54,17 @@
         </div>
     </header>
 
-    <main class="mx-4 sm:mx-40">
+    <main class="mx-4 sm:mx-40 p-0">
         <section class="mb-4">
             <div class="my-8 text-center sm:mb-12 mb-8">
-                <h1 class="font-bold text-2xl sm:text-6xl mb-4">
+                <h1 class="font-bold text-2xl sm:text-5xl mb-4">
                     <span class="col2">Our</span> Plants
                 </h1>
-                <p class="mb-0 col1 sm:text-2xl mx-auto text-center max-w-4xl">
+                <p class="mb-0 col1 sm:text-2xl mx-auto max-w-4xl">
                     Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.
                 </p>
             </div>
+            <!-- cards -->
             <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4">
                 <div class="justify-items-center w-fit mx-auto">
                     <img class="mb-7" src="assets/sample-flower-image.png" alt="sample-flower-image">
@@ -117,7 +116,27 @@
                 </div>
             </div>
         </section>
-        <section></section>
+        <section class="w-full flex flex-col sm:flex-row gap-5 sm:gap-14 items-center sm:mt-20 mt-10">
+            <div>
+                <img src="assets/flower-store.png" alt="FLOWERS Store">
+            </div>
+            <div class="flex-1">
+                <h1 class="text-2xl sm:text-5xl font-bold mb-4">
+                    Flower & Plants Lover
+                </h1>
+                <ul class="list-disc col1 pl-5 text-base sm:text-2xl sm:space-y-5 space-y-4">
+                    <li>
+                        Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.
+                    </li>
+                    <li>
+                        Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.
+                    </li>
+                    <li>
+                        Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.
+                    </li>
+                </ul>
+            </div>
+        </section>
         <section></section>
         <section></section>
         <section></section>
